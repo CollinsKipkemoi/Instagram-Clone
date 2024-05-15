@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-height: 80vh;
+    border: 1px solid red;
+    padding: 30px;
+    text-align: start;
+    overflow-y: hidden;    
+}
+
+.sidebar-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebarItems{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
